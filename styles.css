@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    /* font-family: 'Gentium Plus', serif; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.active {
+    background-color: #ee9aec;
+    color: white;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .main {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 4rem;
+    position: relative;
+    top: -100px;
+  }
+
+  .content {
+    margin: 100px;
+  }
+
+  .pf {
+    font-size: 2rem;
+  }
+
+  .c {
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0px;
+    margin-top: 75px;
+    border: #ee9aec solid 2px;
+    padding: 25px;
+    background-color: #ffc8f8;
+    border-radius: 25px;
+    /* width: fit-content; */
+  }
+
+  .c:hover{
+    /* transform: perspective(600px) rotateX(0deg) rotateY(0deg); */
+    top: -10px;
+    /* transform: perspective(1000px) rotateY(2deg); */
+    /* box-shadow: -10px 15px 10px #ff86c2; */
+    border: #ee9aec solid 15px;
+  }
+
+  img {
+    width: 25%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .custom-shape-divider-bottom-1655252447 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1655252447 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 79px;
+}
+
+.custom-shape-divider-bottom-1655252447 .shape-fill {
+    fill: #333;
+}
+
+.custom-shape-divider-top-1655252545 {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  fill: #333;
+}
+
+       /* width */
+       ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+         border-radius: 15px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      
+
+  @media (max-width: 600px) {
+    .c {
+      margin-top: 50px;
+    }
+    .heading {
+      font-size: 3rem;
+    }
+    .pc {
+        display: none;
+    }
+
+    .heading{
+      top: 0px;
+    }
+  }
+
+
